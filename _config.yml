@@ -1,10 +1,10 @@
 # Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title: bronzehedwick
+email: bronzehedwick@gmail.com
+author: Chris DeLuca
+description: "Writer, Comedian, Developer."
 baseurl: ""
-url: "http://pixyll.com"
+url: "http://bronzehedwick.com"
 google_analytics: 
 
 # Build settings
