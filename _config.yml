@@ -5,7 +5,13 @@ author: Chris DeLuca
 description: "Writer, Comedian, Developer."
 baseurl: ""
 url: "http://bronzehedwick.github.io"
-google_analytics: 
+google_analytics:
+twitter: "https://twitter.com/chrisjohndeluca"
+github: "https://github.com/bronzehedwick"
+youtube: "https://www.youtube.com/channel/UChfcp3RhN0FJOnTZquDRzYw"
+stackoverflow: "http://stackoverflow.com/users/1143575/bronzehedwick"
+drupal: "https://www.drupal.org/u/bronzehedwick"
+linkedin: "https://www.linkedin.com/in/christopherdeluca"
 
 # Build settings
 markdown: kramdown
