@@ -108,15 +108,15 @@ body {
   height: 80px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url(https://cdn1.iconfinder.com/data/icons/windows-8-metro-style/512/book.png);
+  background-image: url(../images/book.png);
 }
 
 .gaming-icon {
-  background-image: url(https://cdn4.iconfinder.com/data/icons/icony/512/game-512.png);
+  background-image: url(../images/game.png);
 }
 
 .code-icon {
-  background-image: url(http://mattfleming.com/files/images/terminal_icon.png);
+  background-image: url(../images/term.png);
 }
 
 .pagination {
