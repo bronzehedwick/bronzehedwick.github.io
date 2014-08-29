@@ -47,6 +47,7 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+.fixed-width-img,
 .site-logo {
   width: auto;
   height: auto;
@@ -100,6 +101,22 @@ body {
   margin-top: 0.25rem;
   font-weight: 600;
   color: #333;
+}
+
+.category-icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn1.iconfinder.com/data/icons/windows-8-metro-style/512/book.png);
+}
+
+.gaming-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/icony/512/game-512.png);
+}
+
+.code-icon {
+  background-image: url(http://mattfleming.com/files/images/terminal_icon.png);
 }
 
 .pagination {
