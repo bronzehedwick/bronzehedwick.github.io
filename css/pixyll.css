@@ -47,6 +47,12 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+.site-logo {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
 .site-header a {
   color: #333;
   font-weight: 300;
@@ -109,7 +115,7 @@ body {
   background: #fafafa;
   border-radius: 0.1875em;
   border: 1px solid #f3f3f3;
-  color: #333333;
+  color: #333;
   padding: 1rem 1.5rem;
 }
 
