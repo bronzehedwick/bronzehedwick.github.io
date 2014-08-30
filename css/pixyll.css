@@ -67,6 +67,15 @@ img {
   width: 100%;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active{
+-webkit-transition:color 0.5s;
+   -moz-transition:color 0.5s;
+      transition:color 0.5s;
+}
+
 .site-wrap {
   min-height: 100%;
   margin-bottom: -100px;
