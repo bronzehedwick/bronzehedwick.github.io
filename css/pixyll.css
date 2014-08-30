@@ -71,9 +71,9 @@ a:link,
 a:visited,
 a:hover,
 a:active{
--webkit-transition:color 0.5s;
-   -moz-transition:color 0.5s;
-      transition:color 0.5s;
+-webkit-transition: color 0.3s;
+   -moz-transition: color 0.3s;
+      transition: color 0.3s;
 }
 
 .site-wrap {

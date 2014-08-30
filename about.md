@@ -1,19 +1,11 @@
 ---
 layout: page
-title: About Pixyll
+title: What is this business?
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+## Colophon
+This blog is built with [Jekyll](http://jekyllrb.com/), and hosted on [Github pages](https://pages.github.com/). The theme was built by [John Otander](http://johnotander.com)
+([@4lpine](https://twitter.com/4lpine)). The artwork is by the lovely and talented [Laurie Berenhaus](http://laurieberenhaus.com).
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
-
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+This site's code is available in the [Github repository](https://github.com/bronzehedwick/bronzehedwick.github.io).
