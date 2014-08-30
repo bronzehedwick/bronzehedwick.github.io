@@ -23,16 +23,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?29084377#fontello') format('svg');
-  }
-}
-*/
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
@@ -54,27 +44,20 @@
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
-
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-github-circled:before { content: '\e800'; } /* '' */
-.icon-stackoverflow:before { content: '\e801'; } /* '' */
-.icon-linkedin-squared:before { content: '\e802'; } /* '' */
-.icon-drupal:before { content: '\e803'; } /* '' */
-.icon-rebel:before { content: '\e804'; } /* '' */
-.icon-empire:before { content: '\e805'; } /* '' */
-.icon-youtube:before { content: '\e806'; } /* '' */
-.icon-twitter:before { content: '\e807'; } /* '' */
-.icon-rocket:before { content: '\e808'; } /* '' */
-.icon-rss:before { content: '\e809'; } /* '' */
+.icon-github-circled:before { content: '\e800'; }
+.icon-stackoverflow:before { content: '\e801'; }
+.icon-linkedin-squared:before { content: '\e802'; }
+.icon-drupal:before { content: '\e803'; }
+.icon-rebel:before { content: '\e804'; }
+.icon-empire:before { content: '\e805'; }
+.icon-youtube:before { content: '\e806'; }
+.icon-twitter:before { content: '\e807'; }
+.icon-rocket:before { content: '\e808'; }
+.icon-rss:before { content: '\e809'; }
 
 body {
   font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
@@ -391,3 +374,19 @@ footer:after {
   content: "";
   display: block;
 }
+
+.social-icons a {
+  color: #7a7a7a;
+}
+
+.icon-github-circled:hover { color: #999; }
+.icon-stackoverflow:hover { color: #fe7a15; }
+.icon-linkedin-squared:hover { color: #0976b4; }
+.icon-drupal:hover { color: #0077c0; }
+.icon-rebel:hover { color: #c12026; }
+.icon-empire:hover { color: #000; }
+.icon-youtube:hover { color: #e52d27; }
+.icon-twitter:hover { color: #55acee; }
+.icon-rocket:hover { color: #0ba6ab; }
+.icon-rss:hover { color: #f26522; }
+
