@@ -413,14 +413,17 @@ footer:after {
   color: #7FDBFF;
 }
 
+.stories-color.stories-active,
 .site-header nav a.stories-color:hover {
   border-bottom: 2px solid #FF4136;
 }
 
+.gaming-color.gaming-active,
 .site-header nav a.gaming-color:hover {
   border-bottom: 2px solid #2ECC40;
 }
 
+.code-color.code-active,
 .site-header nav a.code-color:hover {
   border-bottom: 2px solid #7FDBFF;
 }
