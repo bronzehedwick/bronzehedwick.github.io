@@ -11,6 +11,9 @@ layout: default
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <br><br>
           <h3 class="h2 post-title">{{ post.title }}</h3>
           <p class="post-summary">{{ post.summary }}</p>
+          <footer>
+            <small>Category: {{ post.categories }}</small>
+          </footer>
         </a>
       </div>
     {% endfor %}
