@@ -401,3 +401,27 @@ footer:after {
 .icon-rocket:hover { color: #0ba6ab; }
 .icon-rss:hover { color: #f26522; }
 
+.stories-color:hover {
+  color: #FF4136;
+}
+
+.gaming-color:hover {
+  color: #2ECC40;
+}
+
+.code-color:hover {
+  color: #7FDBFF;
+}
+
+.site-header nav a.stories-color:hover {
+  border-bottom: 2px solid #FF4136;
+}
+
+.site-header nav a.gaming-color:hover {
+  border-bottom: 2px solid #2ECC40;
+}
+
+.site-header nav a.code-color:hover {
+  border-bottom: 2px solid #7FDBFF;
+}
+

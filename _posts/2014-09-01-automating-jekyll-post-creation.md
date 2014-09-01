@@ -46,4 +46,4 @@ Now, if you saved the file as `new_post` for example, you can call it like, `new
 
 Not only that, but it will immediately launch the default editor for markdown files, so you can start writing straight away!
 
-Enjoy.
+Enjoy. <span class="icon-rebel"></span>
