@@ -20,7 +20,7 @@ Now, this could all be typed out each time without too much time being eaten up,
 
 cd /path/to/your/jekyll/repo/_posts
 
-FILETILE=$(echo $1 | tr " " "-" | tr '[:upper:]' '[:lower:]')
+FILETILE=$(echo "$1" | tr " " "-" | tr '[:upper:]' '[:lower:]')
 POSTDATE=$(\date +"%Y-%m-%d")
 POSTNAME=$POSTDATE-$FILETILE.md
 POSTBODY="---
@@ -35,7 +35,7 @@ cat <<EOF >> $POSTNAME
 $POSTBODY
 EOF
 
-open $POSTNAME
+open "$POSTNAME"
 {% endhighlight %}
 
 This code is also available as a [gist](https://gist.github.com/bronzehedwick/050aea1d3971552ff243).
