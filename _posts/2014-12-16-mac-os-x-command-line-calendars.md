@@ -24,7 +24,7 @@ cat /usr/share/calendar/calendar.lotr | grep (date +"%m/%d")
 
 Or maybe you'd like to setup a function that calls the command for easy use, or to add to your login message? While we're at it, why don't we throw in a few more calendars as well.
 
-**Update**
+**Update:**
 I added `-A 0` to the `calendar` command, which limits the display to only events that happened on todays date, instead of tomorrow and yesterday, as well.
 
 bash/zsh:
