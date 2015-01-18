@@ -169,18 +169,21 @@ body {
 }
 
 .category-icon {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 153px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url(../images/book.png);
+  background-image: url(../images/book_icon_md.png);
 }
 
 .gaming-icon {
-  background-image: url(../images/game.png);
+  height: 111px;
+  background-image: url(../images/dragon_icon_md.png);
 }
 
 .code-icon {
+  width: 80px;
+  height: 80px;
   background-image: url(../images/term.png);
 }
 
