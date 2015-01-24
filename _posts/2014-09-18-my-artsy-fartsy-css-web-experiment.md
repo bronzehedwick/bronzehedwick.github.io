@@ -10,7 +10,7 @@ The other day I had some time in between work and an improv show I was doing tha
 
 I call it, [Day and Night](http://bronzehedwick.com/nightandday/).
 
-The quick pitch is that your can control the sun with your mouse, and if you bring the sun down behind the hills in the foreground, the scene changes from day to night.
+The quick pitch is that you can control the sun with your mouse, and if you bring the sun down behind the hills in the foreground, the scene changes from day to night.
 
 <a href="http://bronzehedwick.com/nightandday/">![Night and day split]({{ site.url }}/images/night_and_day.png)</a>
 
@@ -76,7 +76,7 @@ document.addEventListener('mousemove', function(e) {
 
 Finally, I needed to detect if the sun was below the hills. The method I came up with isn't perfect, since the sun can still be peaking out from behind the rounded hills, but it would be way to hard to teach the DOM how to "see" if the sun was visible.
 
-However, the my solution does consistantly change from day to night, no matter the screen size, with the power of math!
+However, my solution does consistantly change from day to night, no matter the screen size, with the power of math!
 
 {% highlight javascript %}
  // Detect night.
