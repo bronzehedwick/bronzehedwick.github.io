@@ -14,5 +14,17 @@ gulp.task('minify-css', function() {
     .pipe(gulp.dest('./css/build/'));
 });
 
+// Minify images
+gulp.task('minify-images', function() {
+  'use strict';
+
+  return gulp.src('images/*')
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}]
+    }))
+    .pipe(gulp.dest('images'));
+});
+
 // Default task
-gulp.task('default', ['minify-css']);
+gulp.task('default', ['minify-css', 'minify-images']);
