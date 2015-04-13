@@ -8,7 +8,7 @@
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" type="image/ico" sizes="16x16 32x32" href="{{ site.url }}/favicon.ico">
-    <script async>
+    <script>
       // Add non-blocking CSS
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
