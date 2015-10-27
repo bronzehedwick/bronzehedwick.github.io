@@ -17,3 +17,4 @@ linkedin: "https://www.linkedin.com/in/christopherdeluca"
 markdown: kramdown
 permalink: pretty
 paginate: 3
+gems: [jekyll-paginate]
