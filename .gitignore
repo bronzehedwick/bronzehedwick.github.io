@@ -6,3 +6,4 @@ _config.gh-pages.yml
 
 # Node ignores
 node_modules
+Gemfile.lock
