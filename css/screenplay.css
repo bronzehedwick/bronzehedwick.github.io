@@ -1,0 +1,87 @@
+.screenplay {
+  font-family: 'Courier Final Draft','Courier Screenplay',Courier;
+  font-size: 12pt;
+  text-align: left;
+  width: 480pt;
+  padding-left: 90pt;
+  padding-top: 24pt;
+  position: relative;
+  margin: 0 auto;
+}
+
+.screenplay div {
+  width: 460pt;
+}
+
+.screenplay h6 {
+  font-family: 'Courier Final Draft','Courier Screenplay',Courier;
+  margin-top: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.screenplay div.block {
+  position: relative;
+  background: #fff;
+}
+
+.screenplay div.action p {
+  margin-top: 1em;
+}
+
+.screenplay .centered {
+  text-align: center;
+}
+
+.screenplay div.dialog,div.dual {
+  margin-top: 1em;
+}
+
+.screenplay div.transition {
+  margin-top: 1em;
+  margin-bottom: 12pt;
+  text-align: right;
+}
+
+.screenplay .dialog p {
+  margin: 0;
+}
+
+.screenplay .dialog p.character {
+  padding-left: 153.33pt;
+}
+
+.screenplay .dialog p.parenthetical {
+  padding-left: 115pt;
+}
+
+.screenplay .dialog p {
+  padding-left: 76.67pt;
+  width: 306.67pt;
+}
+
+.screenplay .dual > div {
+  float: left;
+  width: 48%!important;
+}
+
+.screenplay .dual p.character {
+  padding-left: 6em;
+}
+
+.screenplay .dual p.parenthetical {
+  padding-left: 3em;
+}
+
+.screenplay .dual p {
+  padding-left: 0;
+  width: 19em;
+}
+
+.screenplay .dual .right {
+  margin-left: 1em;
+}
+
+.screenplay .dual .right p.character {
+  padding-left: 6em;
+}

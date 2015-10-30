@@ -8,7 +8,6 @@
     "url": "https://github.com/bronzehedwick/bronzehedwick.github.io"
   },
   "dependencies": {
-    "css-sprite": "^0.9.0",
     "gulp": ">=3.x",
     "gulp-concat": "^2.4.3",
     "gulp-htmlhint": "0.0.9",

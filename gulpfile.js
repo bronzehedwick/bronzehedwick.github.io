@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var sprite = require('css-sprite');
 var minifyCSS = require('gulp-minify-css');
 var concat = require('gulp-concat');
 var imagemin = require('gulp-imagemin');
